@@ -1,0 +1,56 @@
+Given an array of unique integers, each integer is strictly greater than 1.
+We make a binary tree using these integers and each number may be used for any number of times.
+Each non-leaf node's value should be equal to the product of the values of it's children.
+How many binary trees can we make?  Return the answer modulo 10 ** 9 + 7.
+
+Input Description:
+First line contains, n the size of array.
+Second line contains, n size of elements in a array.
+
+Output Description:
+Print the number of binary tree can be made.
+
+Sample Input:
+2
+2 4
+
+Sample Output:
+3
+
+Explanation:
+We can make these trees: [2], [4], [4, 2, 2]
+
+Sample Input:
+3
+3 1 4
+
+Sample Output:
+5
+
+Sample Input:
+4
+2 1 3 4
+
+Sample Output:
+11
+
+Sample Input:
+5
+2 6 1 9 4
+
+Sample Output:
+13
+
+Sample Input:
+2
+4 1
+
+Sample Output:
+3
+
+Sample Input:
+7
+2 9 6 4 1 7 8
+
+Sample Output:
+41
